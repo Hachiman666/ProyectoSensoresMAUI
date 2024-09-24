@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto8.MainPage" Title="Home" BackgroundColor="Transparent">
+
+    <Grid>
+        <Image Source="hollow.jpg" Aspect="AspectFill"/>
+
+        <VerticalStackLayout Padding="35" Spacing="10">
+            <Button Clicked="Btfirma" Text="A Firma" BackgroundColor="White" BorderColor="Black" BorderWidth="10"
+                    FontAttributes="Bold" FontSize="18" FontFamily="8bitOperatorPlus8-Bold"/>
+            <Button Clicked="BtpagAce" Text="Aceleracion" BackgroundColor="White" BorderColor="Black" BorderWidth="10"
+                    FontAttributes="Bold" FontSize="18" FontFamily="8bitOperatorPlus8-Bold"/>
+            <Button Clicked="BtpagGyro" Text="Gyroscopio" BackgroundColor="White" BorderColor="Black" BorderWidth="10"
+                    FontAttributes="Bold" FontSize="18" FontFamily="8bitOperatorPlus8-Bold"/>
+            <Button Clicked="BtpagBruj" Text="Brujula" BackgroundColor="White" BorderColor="Black" BorderWidth="10"
+                    FontAttributes="Bold" FontSize="18" FontFamily="8bitOperatorPlus8-Bold"/>
+            <Button Clicked="BtpagMag" Text="Magnetometro" BackgroundColor="White" BorderColor="Black" BorderWidth="10"
+                    FontAttributes="Bold" FontSize="18" FontFamily="8bitOperatorPlus8-Bold"/>
+            <Button Clicked="BtpagOri" Text="Sensor de Orientacion" BackgroundColor="White" BorderColor="Black" BorderWidth="10"
+                    FontAttributes="Bold" FontSize="18" FontFamily="8bitOperatorPlus8-Bold"/>
+            <Button Clicked="BtpagVib" Text="Detector de Vibraciones" BackgroundColor="White" BorderColor="Black" BorderWidth="10"
+                    FontAttributes="Bold" FontSize="18" FontFamily="8bitOperatorPlus8-Bold"/>
+            <Button Clicked="BtpagGPS" Text="GPS/MAP" BackgroundColor="White" BorderColor="Black" BorderWidth="10"
+                    FontAttributes="Bold" FontSize="18" FontFamily="8bitOperatorPlus8-Bold"/>
+        </VerticalStackLayout>
+    </Grid>
+
+</ContentPage>

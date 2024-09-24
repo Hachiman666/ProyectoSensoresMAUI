@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto8.PagGyro"
+             Title="PagGyro" BackgroundColor="Transparent">
+    <Grid>
+        <Image Source="darksouls.gif" Aspect="AspectFit" IsAnimationPlaying="True" HorizontalOptions="Center"></Image>
+        <VerticalStackLayout>
+            <Label 
+            Text="Gyroscopio"
+            FontSize="30" HorizontalTextAlignment="Center"/>
+            <Label 
+            Text="x="
+            x:Name="gyrox" FontSize="20" HorizontalTextAlignment="Center"/>
+            <Label 
+            Text="y="
+            x:Name="gyroy" FontSize="20" HorizontalTextAlignment="Center"/>
+            <Label 
+            Text="z="
+            x:Name="gyroz" FontSize="20" HorizontalTextAlignment="Center"/>
+            <Button Text="Iniciar" Clicked="btiniciar" BackgroundColor="White" TextColor="Black" BorderColor="Black" BorderWidth="12"/>
+            <Button Text="Parar" Clicked="btparar" BackgroundColor="White" TextColor="Black" BorderColor="Black" BorderWidth="12"/>
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>
